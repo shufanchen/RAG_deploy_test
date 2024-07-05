@@ -7,4 +7,3 @@ pydantic==2.7.4
 torch==2.1.0
 safetensors==0.4.3
 sentencepiece
-subprocess
