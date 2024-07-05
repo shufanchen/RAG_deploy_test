@@ -4,7 +4,7 @@ import torch
 import logging
 import uuid
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
-
+import subprocess
 # Setup logging
 log_format = '%(asctime)s - %(levelname)s - %(message)s'
 log_dir = './log'
