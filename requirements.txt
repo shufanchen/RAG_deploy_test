@@ -6,5 +6,6 @@ requests==2.32.2
 pydantic==2.7.4
 torch==2.1.0
 safetensors==0.4.3
+gradio==4.10.0
 sentencepiece
 einops
