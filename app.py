@@ -79,4 +79,4 @@ with gr.Blocks() as interface:
         gr.Button(value="满意", variant="primary").click(fn=lambda: feedback("满意"), inputs=[], outputs=feedback_text)
         gr.Button(value="不满意", variant="secondary").click(fn=lambda: feedback("不满意"), inputs=[], outputs=feedback_text)
 
-interface.launch(share=True, server_port=10066)
+interface.launch(share=True)
